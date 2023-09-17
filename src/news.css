@@ -1,0 +1,42 @@
+.card-img-top {
+    height: 150px;
+}
+.card{
+    border-color: rgb(80, 80, 80);
+}
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 19rem;
+  }
+}
+.container{
+  padding-bottom: 9px;;
+}
+
+body{
+  background-color: black;
+}
+
+.page-load-error {
+  margin-top: 155px;
+  font-family: 'Poppins', sans-serif, verdana;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.author-text {
+  color: rgb(199, 202, 202);
+  opacity: 0.85;
+}
+
+.news-src-badge{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+}
+.news-badge{
+  margin-top: -1px;
+  margin-right: -1px;
+  background-color: rgb(129, 10, 6);
+}
