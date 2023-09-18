@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "../news.css";
 import { Link } from "react-router-dom";
 
-export default class NewsItem extends Component {
-  render() {
-    let { title, description, imageUrl, url, author, date, source } = this.props;
+export default function NewsItem(props) {
+    let { title, description, imageUrl, url, author, date, source } = props;
 
     return (
       <div className="my-3">
@@ -48,5 +47,5 @@ export default class NewsItem extends Component {
         </div>
       </div>
     );
-  }
+  
 }
