@@ -12,6 +12,13 @@
 .container{
   padding-bottom: 9px;;
 }
+h2 {
+  margin-top: 70px;
+  color: brown;
+}
+.no-article {
+  color: brown;
+}
 
 body{
   background-color: black;

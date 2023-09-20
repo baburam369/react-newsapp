@@ -25,7 +25,7 @@ export default function NewsItem(props) {
 
           <div className="card-body">
            
-            <h5 className="card-title">{title ? title.slice(0, 30) : ""}..</h5>
+            <h5 className="card-title">{title ? title.slice(0, 30) : "unknown"}..</h5>
             <p className="card-text">
               {description ? description.slice(0, 40) : ""}..
             </p>
